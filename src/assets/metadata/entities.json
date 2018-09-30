@@ -1,0 +1,72 @@
+{
+  "values": [
+    {
+      "key": 1,
+      "id": "client",
+      "displayName": "Client",
+      "fields": [
+        {
+          "key": 1,
+          "id": "id",
+          "displayName": "Code"
+        },
+        {
+          "key": 2,
+          "id": "name",
+          "displayName": "Name"
+        },
+        {
+          "key": 3,
+          "id": "tel",
+          "displayName": "Telephone"
+        },
+        {
+          "key": 4,
+          "id": "observation",
+          "displayName": "Observation"
+        }
+      ],
+      "forms": [
+        {
+          "key": 1,
+          "id": "frm_client_list",
+          "displayName": "List of Clients",    
+          "tabs": [
+            {
+              "key": 1,
+              "id": "tab_client_list",
+              "displayName": "List",
+              "order": 1,
+              "sections": [
+                {
+                  "key": 1,
+                  "id": "sec_client_list",
+                  "displayName": null,
+                  "order": 1, 
+                  "boxes": [
+                    {
+                      "key": 1,
+                      "id": "box_client_list",
+                      "type": "grid",
+                      "controls": [
+                        {
+                          "key": 1,
+                          "visible": true,
+                          "readOnly": true,
+                          "searchable": true,
+                          "field": {
+                            "key": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

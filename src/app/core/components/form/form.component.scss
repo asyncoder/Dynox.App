@@ -1,0 +1,8 @@
+.section-container {
+  display: flex;
+
+  .section-item {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+}

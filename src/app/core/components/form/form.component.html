@@ -1,0 +1,17 @@
+<mat-tab-group>
+  <mat-tab 
+    *ngFor="let tab of form.tabs" 
+    [label]="tab.displayName">
+    <div 
+      *ngFor="let sec of tab.sections">
+      <div>{{ sec.displayName }}</div>      
+      <div class="section-container">
+        <div          
+          *ngFor="let box of sec.boxes"
+          class="section-item">
+          {{ box | json }}
+        </div>
+      </div>
+    </div>
+  </mat-tab>  
+</mat-tab-group>
